@@ -1,0 +1,40 @@
+.container {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+    .container__title {
+        margin-bottom: 2em;
+    }
+
+    .container__input-group {
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 1rem;
+        margin-bottom: 2rem;
+
+        .input-group__input {
+            width: 15rem;
+            height: 2rem;
+            align-self: center;
+        }
+    }
+
+    .container__method {
+        margin-bottom: 2rem;
+
+        .method__select {
+            width: 15rem;
+            height: 2rem;
+        }
+    }
+
+    .container__action {
+        margin-bottom: 3rem;
+
+        .action__btn {
+            width: 5rem;
+            height: 1.5rem;
+        }
+    }
+}
